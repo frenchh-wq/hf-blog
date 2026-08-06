@@ -39,8 +39,7 @@
     <section class="subbar">
       <h3>Get new writing by email</h3>
       <p>Occasional. Honest. No spam.</p>
-      <!-- MAILERLITE_FORM: paste embed here -->
-      <form class="subform" onsubmit="alert('Add your MailerLite embed');return false;"><input type="email" placeholder="you@example.com" required><button>Subscribe</button></form>
+      <form class="subform" name="subscribe" method="POST" data-netlify="true"><input type="hidden" name="form-name" value="subscribe"><input type="email" name="email" placeholder="you@example.com" required><button type="submit">Subscribe</button></form>
     </section>
   </div>
   <main><div class="wrap">
