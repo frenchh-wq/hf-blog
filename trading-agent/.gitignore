@@ -1,0 +1,7 @@
+.env
+*.db
+results/*
+!results/.gitkeep
+__pycache__/
+.pytest_cache/
+KILL

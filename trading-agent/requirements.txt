@@ -1,0 +1,7 @@
+anthropic>=1.11
+ccxt>=4.5
+pandas>=2.2
+numpy>=1.26
+pydantic>=2.7
+python-dotenv>=1.0
+pytest>=8
